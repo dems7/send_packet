@@ -42,7 +42,7 @@ class VerifyEmailScreen extends StatelessWidget {
                   style: Theme.of(context).textTheme.headlineMedium,
                   textAlign: TextAlign.center),
               const SizedBox(height: TSizes.spaceBtwItems),
-              Text('support@codingwitht.com',
+              Text('support@sendpacket.com',
                   style: Theme.of(context).textTheme.labelLarge,
                   textAlign: TextAlign.center),
               const SizedBox(height: TSizes.spaceBtwItems),

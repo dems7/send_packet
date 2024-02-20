@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
+//import 'package:get/get_core/src/get_main.dart';
 //import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:send_packet/features/authentification/screens/login/login.dart';
+//import 'package:send_packet/features/authentification/screens/login/login.dart';
 import 'package:send_packet/features/authentification/screens/signup/verify_email.dart';
 import 'package:send_packet/features/authentification/screens/signup/widgets/terms_conditions_checkbox.dart';
 import '../../../../../utils/constants/sizes.dart';
