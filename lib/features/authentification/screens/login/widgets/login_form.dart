@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/route_manager.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:send_packet/features/authentification/screens/password_configuration/forget_password.dart';
 import 'package:send_packet/features/authentification/screens/signup/signup.dart';

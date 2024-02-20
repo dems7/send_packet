@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:send_packet/features/authentification/screens/login/login.dart';
+import 'package:send_packet/utils/constants/text_strings.dart';
+import 'package:send_packet/utils/theme/theme.dart';
 
 //import 'app.dart';
 
@@ -13,9 +16,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return GetMaterialApp(
+      title: TTexts.appName,
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      themeMode: ThemeMode.system,
+      theme: TAppTheme.lightTheme,
+      home: const LoginScreen(),
     );
   }
 }
