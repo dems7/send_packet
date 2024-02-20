@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+//import 'package:send_packet/common/widgets/appbar/appbar.dart';
 import 'package:send_packet/common/widgets/login_signup/form_divider.dart';
 import 'package:send_packet/common/widgets/login_signup/social_buttons.dart';
 import 'package:send_packet/features/authentification/screens/signup/widgets/signup_form.dart';

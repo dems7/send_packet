@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:send_packet/common/widgets/appbar/appbar.dart';
 import 'package:send_packet/common/widgets/success_screen/success_screen.dart';
 import '../../../../utils/constants/image_strings.dart';
 import '../../../../utils/constants/sizes.dart';
@@ -18,7 +19,7 @@ class VerifyEmailScreen extends StatelessWidget {
       /// Reason: We will store the data when user enters the Register Button on Previous screen.
       /// Whenever the user opens the app, we will check if email is verified or not.
       /// If not verified we will always show this Verification screen.
-      appBar: AppBar(actions: [
+      appBar: TAppBar(actions: [
         IconButton(
             onPressed: () => Get.offAll(const LoginScreen()),
             icon: const Icon(CupertinoIcons.clear))
