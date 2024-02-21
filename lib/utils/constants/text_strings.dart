@@ -8,12 +8,9 @@ class TTexts {
   static const String appName = "SendPacket";
   static const String tContinue = "Continue";
 
-  static const String onBoardingSubTitle1 =
-      "Welcome to a World of Limitless Choices - Your Perfect Product Awaits!";
-  static const String onBoardingSubTitle2 =
-      "For Seamless Transactions, Choose Your Payment Path - Your Convenience, Our Priority!";
-  static const String onBoardingSubTitle3 =
-      "From Our Doorstep to Yours - Swift, Secure, and Contactless Delivery!";
+  static const String onBoardingSubTitle1 = "";
+  static const String onBoardingSubTitle2 = "";
+  static const String onBoardingSubTitle3 = "";
 
   // -- Authentication Forms
   static const String firstName = "First Name";
@@ -43,24 +40,24 @@ class TTexts {
   static const String signupTitle = "Let’s create your account";
   static const String forgetPasswordTitle = "Forget password";
   static const String forgetPasswordSubTitle =
-      "Don’t worry sometimes people can forget too, enter your email and we will send you a password reset link.";
+      "Ne vous inquiétez pas, parfois les gens peuvent oublier, entrez votre adresse e-mail et nous vous enverrons un lien de réinitialisation du mot de passe.";
   static const String changeYourPasswordTitle = "Password Reset Email Sent";
   static const String changeYourPasswordSubTitle =
-      "Your Account Security is Our Priority! We've Sent You a Secure Link to Safely Change Your Password and Keep Your Account Protàcted.";
-  static const String confirmEmail = "Verify your email address!";
+      "La sécurité de votre compte est notre priorité! Nous vous avons envoyé un lien sécurisé pour modifier votre mot de passe en toute sécurité et protéger votre compte.";
+  static const String confirmEmail = "Vérifiez votre addresse mail";
   static const String confirmEmailSubTitle =
-      "Toutes nos félicitations! Votre compte vous attend : vérifiez votre adresse e-mail pour découvrir nos disponibilités de voyages à travers le monde";
+      "Toutes nos félicitations! Votre compte vous attend: vérifiez votre adresse e-mail pour découvrir nos disponibilités de voyages à travers le monde";
   static const String emailNotReceivedMessage =
-      "Didn’t get the email? Check your junk/spam or resend it.";
+      "Vous n'avez pas reçu l'e-mail? Vérifiez vos courriers indésirables/spam ou renvoyez-les.";
   static const String yourAccountCreatedTitle =
-      "Your account successfully created!";
+      "Votre compte est créé avec succès";
   static const String yourAccountCreatedSubTitle =
-      "Bienvenue sur votre destination de d'expedition ultime : votre compte est créé, l'equipe Send Packet vous souhaite une bonne utilisation";
+      "Bienvenue sur votre destination de d'expedition ultime: votre compte est créé, l'equipe Send Packet vous souhaite une bonne utilisation";
 
   // -- Product
   static const String popularProducts = "Popular Products";
 
   // -- Home
-  static const String homeAppbarTitle = "Good day for shopping";
-  static const String homeAppbarSubTitle = "Taimoor Sikander";
+  static const String homeAppbarTitle = "Send Packet";
+  static const String homeAppbarSubTitle = "";
 }

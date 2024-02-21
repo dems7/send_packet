@@ -12,7 +12,7 @@ class HomeMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: TAppBar(),
+      appBar: const TAppBar(),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

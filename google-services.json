@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "686707153698",
+    "project_id": "sendpacket-c6252",
+    "storage_bucket": "sendpacket-c6252.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686707153698:android:b99a926693f7ddb7d3e37b",
+        "android_client_info": {
+          "package_name": "com.example.sendPacket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686707153698-40ic40ogsd7ijtfv3st11a2per6cqvkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sendPacket",
+            "certificate_hash": "0aba897af27e9aae214881f1c8c77e5731b5b9aa"
+          }
+        },
+        {
+          "client_id": "686707153698-ic2saopnhcpd8l54prrg8psuj3q8lv0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKv7GLL96vTj5rzhA1pJRvwLJowQGVTfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686707153698-ic2saopnhcpd8l54prrg8psuj3q8lv0s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "686707153698-64dnc6habi1imoci1sf4qivce1t5o3br.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sendPacket"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686707153698:android:f3b2620bf49dce4bd3e37b",
+        "android_client_info": {
+          "package_name": "com.example.send_packet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686707153698-ic2saopnhcpd8l54prrg8psuj3q8lv0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKv7GLL96vTj5rzhA1pJRvwLJowQGVTfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686707153698-ic2saopnhcpd8l54prrg8psuj3q8lv0s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "686707153698-64dnc6habi1imoci1sf4qivce1t5o3br.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sendPacket"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
