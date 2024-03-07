@@ -1,12 +1,26 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:get/get.dart';
+import 'package:send_packet/bindings/general_bindings.dart';
+import 'data/repositories/authentication/authentication_repository.dart';
 import 'package:send_packet/features/authentification/screens/login/login.dart';
+import 'package:send_packet/firebase_options.dart';
 import 'package:send_packet/utils/constants/text_strings.dart';
 import 'package:send_packet/utils/theme/theme.dart';
 
 //import 'app.dart';
 
-void main() {
+Future<void> main() async {
+  //Widget binding
+  final WidgetsBinding widgetsBinding =
+      WidgetsFlutterBinding.ensureInitialized();
+
+  //Initialisation firebase & authentification repository
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
+      .then(
+    (FirebaseApp value) => Get.put(AuthenticationRepository()),
+  );
+
   runApp(const MyApp());
 }
 
@@ -21,6 +35,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
+      initialBinding: GeneralBindings(),
       home: const LoginScreen(),
     );
   }
