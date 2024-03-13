@@ -53,6 +53,8 @@ class TTexts {
       "Votre compte est créé avec succès";
   static const String yourAccountCreatedSubTitle =
       "Bienvenue sur votre destination de d'expedition ultime: votre compte est créé, l'equipe Send Packet vous souhaite une bonne utilisation";
+  static const String accountCreatedSubtitle =
+      "Votre compte est créé avec succès";
 
   // -- Product
   static const String popularProducts = "Popular Products";

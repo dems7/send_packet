@@ -5,9 +5,10 @@ import 'package:send_packet/features/sendpacket_contents/screens/annonce.dart';
 import 'package:send_packet/features/sendpacket_contents/screens/commande.dart';
 import 'package:send_packet/features/sendpacket_contents/screens/home/home.dart';
 import 'package:send_packet/features/sendpacket_contents/screens/settings_screen.dart';
+import 'package:send_packet/features/sendpacket_contents/screens/voyageur_screen/voyage.dart';
 
-class HomeMenu extends StatelessWidget {
-  const HomeMenu({super.key});
+class HomeMenuVoyageur extends StatelessWidget {
+  const HomeMenuVoyageur({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,9 +27,9 @@ class HomeMenu extends StatelessWidget {
               controller.selectedMenu.value = index,
           destinations: const [
             NavigationDestination(icon: Icon(Iconsax.home), label: 'Home'),
-            NavigationDestination(icon: Icon(Iconsax.shop), label: 'commande'),
+            NavigationDestination(icon: Icon(Iconsax.box), label: 'commande'),
             NavigationDestination(
-                icon: Icon(Iconsax.airplane), label: 'annonce'),
+                icon: Icon(Iconsax.airplane5), label: 'voyage'),
             NavigationDestination(icon: Icon(Iconsax.user), label: 'Profile'),
           ],
         ),
@@ -43,5 +44,5 @@ class AppScreenController extends GetxController {
 
   final Rx<int> selectedMenu = 0.obs;
 
-  final screens = [HomeScreen(), Commande(), Annonce(), SettingsScreen()];
+  final screens = [HomeScreen(), Commande(), Voyage(), SettingsScreen()];
 }

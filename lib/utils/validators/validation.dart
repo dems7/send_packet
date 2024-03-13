@@ -22,6 +22,21 @@ class TValidator {
     return null;
   }
 
+  static String? validatePhoneNumber(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Phone number is required.';
+    }
+
+    // Regular expression for phone number validation (assuming a 10-digit US phone number format)
+    final phoneRegExp = RegExp(r'^\d{10}$');
+
+    if (!phoneRegExp.hasMatch(value)) {
+      return 'Invalid phone number format (10 digits required).';
+    }
+
+    return null;
+  }
+
   static String? validatePassword(String? value) {
     if (value == null || value.isEmpty) {
       return 'Password is required.';
@@ -45,21 +60,6 @@ class TValidator {
     // Check for special characters
     if (!value.contains(RegExp(r'[!@#$%^&*(),.?":{}|<>]'))) {
       return 'Password must contain at least one special character.';
-    }
-
-    return null;
-  }
-
-  static String? validatePhoneNumber(String? value) {
-    if (value == null || value.isEmpty) {
-      return 'Phone number is required.';
-    }
-
-    // Regular expression for phone number validation (assuming a 10-digit US phone number format)
-    final phoneRegExp = RegExp(r'^\d{10}$');
-
-    if (!phoneRegExp.hasMatch(value)) {
-      return 'Invalid phone number format (10 digits required).';
     }
 
     return null;

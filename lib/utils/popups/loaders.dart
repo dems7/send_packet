@@ -4,6 +4,9 @@ import 'package:iconsax/iconsax.dart';
 import 'package:send_packet/utils/constants/colors.dart';
 
 class TLoaders {
+  static hideSnackBar() =>
+      ScaffoldMessenger.of(Get.context!).hideCurrentSnackBar();
+
   static successSnackBar({required title, message = '', duration = 3}) {
     Get.snackbar(
       title,

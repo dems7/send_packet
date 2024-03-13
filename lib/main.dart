@@ -8,8 +8,6 @@ import 'package:send_packet/firebase_options.dart';
 import 'package:send_packet/utils/constants/text_strings.dart';
 import 'package:send_packet/utils/theme/theme.dart';
 
-//import 'app.dart';
-
 Future<void> main() async {
   //Widget binding
   final WidgetsBinding widgetsBinding =

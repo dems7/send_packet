@@ -13,4 +13,8 @@ class Images {
       'assets/images/animations/verifyemail.png';
   static const String staticSuccessIllustration =
       "assets/images/animations/successemail.png";
+
+  //-- Animation loader
+  static const String docerAnimation =
+      "assets/images/animations/sammy-line-workout.gif";
 }
